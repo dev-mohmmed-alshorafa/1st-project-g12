@@ -13,13 +13,14 @@ html{
 .headerPage{
   display: flex;
   justify-content: flex-end;
-  padding: 1rem 1rem;
+  padding: 1.5rem 1.5rem;
   
 }
 
 .headerPage i{
   background-color: gray;
-  padding: 10px;
+  font-size: 2rem;
+  padding: 2rem;
   border-radius: 50%;
 
 }
@@ -36,7 +37,7 @@ border-radius: 50%;
 }
 .topArticle h1{
   margin: 3rem 0;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 300;
   color: gray;
 }
@@ -71,7 +72,7 @@ border: 1px solid gray;
   
 }
 
- h2{
+h2{
   margin: 6rem 0 2rem 0;
   font-size: 3.5rem;
   font-weight: 300;
@@ -81,6 +82,26 @@ border: 1px solid gray;
 
 }
  h2::after{
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 0.2rem;
+  top: -2rem;
+  background-color: gray;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+h3{
+  margin: 6rem 0 2rem 0;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: gray;
+  position: relative;
+  text-align: center;
+
+}
+ h3::after{
   position: absolute;
   content: "";
   width: 20%;
