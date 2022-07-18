@@ -1,5 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Akshar', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+html{
+  font-size: 10px;
+}
+.headerPage{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 1rem;
+  
+}
+
+.headerPage i{
+  background-color: gray;
+  padding: 10px;
+  border-radius: 50%;
+
+}
+.topArticle{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.topArticle img{
+width: 20rem;
+height: 20rem;
+border-radius: 50%;
+}
+.topArticle h1{
+  margin: 3rem 0;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: gray;
+}
+ p{
+  max-width: 34rem;
+  margin-bottom: 3rem;
+  color: rgb(112, 110, 110);
+  font-size: 1.5rem;
+  text-align: center;
+}
+ button{
+  background: rgba(0, 0, 0, 0);
+  padding: 1.5rem ;
+  width: 90%;
+border-radius: 20px;
+color:gray ;
+border: 1px solid gray;
+}
+ button:hover{
+  background-color: gray;
+  color: white;
+}
+.tools{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  background-color: rgb(241, 235, 235);
+  padding-bottom: 4rem;
+
+
+  
+}
+
+ h2{
+  margin: 6rem 0 2rem 0;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: gray;
+  position: relative;
+  text-align: center;
+
+}
+ h2::after{
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 0.2rem;
+  top: -2rem;
+  background-color: gray;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 3rem 2rem 0;
+}
+.icons i{
+  font-size: 4rem;
+  padding: 1.5rem;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+
+.figures figure ,figcaption{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.figures figure{
+  margin-top: 4rem;
+}
+.figures img{
+  width: 32rem;
+  height: 28rem;
+  border-radius: 8px;
+}
+.figureNoneImg{
+  border-top:1px solid rgb(136, 132, 132) ; padding-top: 4rem;margin: 10% 5%;
+}
+.Amet{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(./img/4.jpg);
+  padding-bottom: 3rem;
+
+}
+.Amet p,h2,button{
+  color: rgb(230, 218, 218) !important;
+}
+.contactUs {
+  background-color: rgb(219, 209, 209);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+}
+.contactUs article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgb(58, 56, 56);
+  padding-bottom: 2rem;
+  width: 90%;
+}
+.contactUs h2{
+  margin: 0 ;
+  color: rgb(66, 63, 63) !important;
+}
+.contactUs p{
+margin: 2rem 0;
+}
+.contactUs i{
+  padding: 1rem;
+  border: 1px solid rgb(58, 56, 56);
+  color:rgb(58, 56, 56) ;
+  font-size: 2rem;
+  border-radius: 50%;
+  margin: 2.5px;
+
+}
+.form{
+  padding-top: 3rem;
+
+}
+.form input,textarea{
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  border: none;
+
+
+}
+.form button{
+  display: block;
+  margin: auto;
+  color: rgb(109, 101, 101) !important;
 }
