@@ -16,12 +16,19 @@ html{
   padding: 1.5rem 1.5rem;
   
 }
-
+header a{
+  color: black;
+}
 .headerPage i{
   background-color: gray;
   font-size: 2rem;
   padding: 2rem;
   border-radius: 50%;
+
+}
+.headerPage i:hover{
+  background-color: rgb(8, 8, 8);
+  color: white;
 
 }
 .topArticle{
@@ -53,7 +60,7 @@ border-radius: 50%;
   padding: 1.5rem ;
   width: 90%;
 border-radius: 20px;
-color:gray ;
+color:rgb(17, 16, 16) ;
 border: 1px solid gray;
 }
  button:hover{
@@ -70,6 +77,10 @@ border: 1px solid gray;
 
 
   
+}
+.tools a{
+  background-color: rgb(241, 235, 235);
+z-index: 3;
 }
 
 h2{
@@ -117,7 +128,7 @@ h3{
   justify-content: center;
   flex-wrap: wrap;
   width: 70%;
-  margin: 0 3rem 2rem 0;
+  margin: 0 0 2rem 0;
 }
 .icons i{
   font-size: 4rem;
@@ -127,7 +138,10 @@ h3{
   border-radius: 50%;
   margin: 0.5rem;
 }
-
+.icons i:hover{
+  background-color: gray;
+  color: white;
+}
 .figures figure ,figcaption{
   display: flex;
   flex-direction: column;
@@ -154,7 +168,7 @@ h3{
   padding-bottom: 3rem;
 
 }
-.Amet p,h2,button{
+.Amet p,.Amet h2,.Amet button{
   color: rgb(230, 218, 218) !important;
 }
 .contactUs {
@@ -187,6 +201,10 @@ margin: 2rem 0;
   border-radius: 50%;
   margin: 2.5px;
 
+}
+.contactUs i:hover{
+  background: #000;
+  color: white;
 }
 .form{
   padding-top: 3rem;
