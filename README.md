@@ -22,10 +22,10 @@
 
 By - [Mohammed Al-Shorafa](https://github.com/mohmmed23)
 
-## Desktop
+## Mobile
 
 ![](https://github.com/GSG-CA/curriculum/raw/main/coursebook/week-1/projects/accessibility/mobile-view.png)
 
-## Mobile
+## Desktop 
 
 ![](https://github.com/GSG-CA/curriculum/raw/main/coursebook/week-1/projects/accessibility/desktop-view.png)
